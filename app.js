@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8080
 
 // Shared state array
 let sharedState = ["ვაჟა", "ეკა", "რატი","თამუნა",'ნინო', "კესო", "გოგიტა"];
