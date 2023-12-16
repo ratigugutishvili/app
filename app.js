@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 8080
 
 // Shared state array
-let sharedState = ["ვაჟა", "ეკა", "რატი","თამუნა",'ნინო', "კესო", "გოგიტა"];
+let sharedState = ["ვაჟა", "ეკა", "ყველაზე მაგარი რატი","თამუნა",'ნინო', "კესო", "გოგიტა"];
 
 app.use(cors());
 
